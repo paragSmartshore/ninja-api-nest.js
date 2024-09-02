@@ -9,6 +9,6 @@ export class BeltGuard implements CanActivate {
     //validate request
     // const hasBlackBelt = request.user.belts.includes('black')
     //return hasBlackBelt
-    return false;
+    return true;
   }
 }
